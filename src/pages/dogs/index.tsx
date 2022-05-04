@@ -1,14 +1,9 @@
 import axios from 'axios';
 import React from 'react';
 
-// import { useDispatch } from 'react-redux';
-// import { connect } from 'react-redux';
-
 import Card from '../../components/card';
 import Layout from '../../components/layout';
 import { Col, MessageRow, Row } from '../../components/layout/styles';
-
-// import { incremented, decremented } from '../../store/store';
 
 interface CardProps {
   id: string;
@@ -52,11 +47,3 @@ const DogsPage: React.FC = () => {
 };
 
 export default DogsPage;
-// export default connect(mapStateToProps)(DogsPage);
-
-// function mapStateToProps(state: any) {
-
-//   return {
-//     props1: state.value,
-//   };
-// }
